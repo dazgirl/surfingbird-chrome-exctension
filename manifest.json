@@ -1,0 +1,68 @@
+{
+	"name": "Surfingbird",
+	"version": "1.46",
+    "default_locale": "ru",
+	"manifest_version": 2,
+		
+	"options_page": "files/options.html",
+
+	"description": "Surfingbird - твой персональный Интернет.",
+
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	
+	"background":  {
+		"page": "bg.html"
+	},
+
+	"browser_action": {
+		"default_title": "Click to Surf!",
+		"default_icon": "files/i/favicon.png",
+        "default_popup": "popup/popup.html"
+	},
+
+    "content_scripts": [{
+        "js": ["jquery.min.js", "contentScriptsStart.js"],
+        "matches": ["http://*/*", "https://*/*"],
+        "run_at": "document_start"
+    }],
+		
+	"icons": {
+        "16": "files/i/favicon.png",
+        "48": "files/i/favicon48.png",
+        "64": "files/i/favicon64.png"
+	},
+  
+	"permissions": [
+		"tabs",
+        "cookies",
+        "management",
+        "history",
+   		"notifications",
+		"http://*/*",
+        "https://*/*",
+        "http://surfingbird.ru/*"
+	],
+	
+	"web_accessible_resources": [
+		"files/i/icons.png",
+		"files/i/favicon.png",
+		"files/toolbar.css",
+		"files/toolbar.html",
+		"files/like.html",
+		"files/like.js",
+		"files/unlike.html",
+		"files/unlike.js",
+		"files/interests.html",
+		"files/interests.js",
+		"files/collections.html",
+		"files/collections.js",
+		"files/comments.html",
+		"files/comments.js",
+		"files/scripts.js",
+		"files/options.html",
+		"files/options.js",
+        "files/i/favicon48.png",
+        "files/i/favicon64.png",
+		"files/i/preloader-screen.gif"
+	]
+}

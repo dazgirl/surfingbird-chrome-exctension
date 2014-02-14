@@ -1,0 +1,33 @@
+html, body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    color: #6f6f68;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+.hide {
+    display: none;
+    }
+
+.popupButtons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+
+.btn {
+    white-space: nowrap;
+    margin: 18px 0 18px 0;
+    }
+
+.btn a {
+    color: #6f6f68;
+    text-decoration: none;
+    outline: none;
+    }
+.btn a:hover {
+    color: #117FBC;
+    text-decoration: none;
+    outline: none;
+    }

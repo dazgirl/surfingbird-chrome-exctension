@@ -1,0 +1,284 @@
+{
+   "Advertisment": {
+      "message": "Advertisment"
+   },
+   "Animals": {
+      "message": "Animals"
+   },
+   "Anime": {
+      "message": "Anime"
+   },
+   "Architecture": {
+      "message": "Architecture"
+   },
+   "Art": {
+      "message": "Art"
+   },
+   "Auto": {
+      "message": "Auto"
+   },
+   "Aviation": {
+      "message": "Aviation"
+   },
+   "Beauty": {
+      "message": "Beauty"
+   },
+   "Blogs": {
+      "message": "Blogs"
+   },
+   "Books": {
+      "message": "Books"
+   },
+   "Cartoons": {
+      "message": "Cartoons"
+   },
+   "Catastrophes": {
+      "message": "Catastrophes"
+   },
+   "Celebrities": {
+      "message": "Celebrities"
+   },
+   "Children": {
+      "message": "Children"
+   },
+   "CloseToolbar": {
+      "message": "Hide toolbar"
+   },
+   "Computers": {
+      "message": "Computers"
+   },
+   "Crime": {
+      "message": "Crime"
+   },
+   "Culture": {
+      "message": "Culture"
+   },
+   "Cybersport": {
+      "message": "Cybersport"
+   },
+   "Design": {
+      "message": "Design"
+   },
+   "DontShow": {
+      "message": "Do not show"
+   },
+   "Economics": {
+      "message": "Economics"
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "Education": {
+      "message": "Education"
+   },
+   "Enter": {
+      "message": "Login"
+   },
+   "Entertainment": {
+      "message": "Entertainment"
+   },
+   "Erotic": {
+      "message": "Erotic"
+   },
+   "Fashion": {
+      "message": "Fashion"
+   },
+   "Feed": {
+      "message": "Newsfeed"
+   },
+   "Fitness": {
+      "message": "Fitness"
+   },
+   "Food": {
+      "message": "Food"
+   },
+   "Gadgets": {
+      "message": "Gadgets"
+   },
+   "Games": {
+      "message": "Games"
+   },
+   "Gifs": {
+      "message": "Gifs"
+   },
+   "Girls": {
+      "message": "Girls"
+   },
+   "Health": {
+      "message": "Health"
+   },
+   "History": {
+      "message": "History"
+   },
+   "Hobby": {
+      "message": "Hobby"
+   },
+   "Humor": {
+      "message": "Humor"
+   },
+   "Interior": {
+      "message": "Interior"
+   },
+   "Login": {
+      "message": "Login"
+   },
+   "Logout": {
+      "message": "Logout"
+   },
+   "Medicine": {
+      "message": "Medicine"
+   },
+   "MoreCat": {
+      "message": "More from"
+   },
+   "MoreFrom": {
+      "message": "More from"
+   },
+   "Moto": {
+      "message": "Moto"
+   },
+   "Movies": {
+      "message": "Movies"
+   },
+   "Music": {
+      "message": "Music"
+   },
+   "Nature": {
+      "message": "Nature"
+   },
+   "News": {
+      "message": "News"
+   },
+   "Password": {
+      "message": "Password"
+   },
+   "Philosophy": {
+      "message": "Philosophy"
+   },
+   "Photo": {
+      "message": "Photo"
+   },
+   "Pictures": {
+      "message": "Pictures"
+   },
+   "Politics": {
+      "message": "Politics"
+   },
+   "Profile": {
+      "message": "Profile"
+   },
+   "Programming": {
+      "message": "Programming"
+   },
+   "Psychology": {
+      "message": "Psychology"
+   },
+   "Registration": {
+      "message": "Registration"
+   },
+   "Relationships": {
+      "message": "Relationships"
+   },
+   "Religion": {
+      "message": "Religion"
+   },
+   "Scandals": {
+      "message": "Scandals"
+   },
+   "Science": {
+      "message": "Science"
+   },
+   "Settings": {
+      "message": "Settings"
+   },
+   "Shopping": {
+      "message": "Shopping"
+   },
+   "Society": {
+      "message": "Society"
+   },
+   "Spam": {
+      "message": "Spam"
+   },
+   "Sport": {
+      "message": "Sport"
+   },
+   "TVseries": {
+      "message": "TV series"
+   },
+   "Technology": {
+      "message": "Technology"
+   },
+   "Telecom": {
+      "message": "Telecom"
+   },
+   "Travel": {
+      "message": "Travel"
+   },
+   "Video": {
+      "message": "Video"
+   },
+   "Weapons": {
+      "message": "Weapons"
+   },
+   "Web": {
+      "message": "Web"
+   },
+   "Work": {
+      "message": "Work"
+   },
+   "WrongCat": {
+      "message": "Wrong category"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "msgAddThisPage": {
+      "message": "Add this page"
+   },
+   "msgAllInterests": {
+      "message": "All interests"
+   },
+   "msgAllInterests2": {
+      "message": " All interests"
+   },
+   "msgAutorize": {
+      "message": "Login please"
+   },
+   "msgBeFirst": {
+      "message": "Be the first to add this page"
+   },
+   "msgClose": {
+      "message": "Close"
+   },
+   "msgComments": {
+      "message": "Comments"
+   },
+   "msgFavorites": {
+      "message": "Add to Favorites"
+   },
+   "msgHome": {
+      "message": "Home"
+   },
+   "msgInvalid": {
+      "message": "Invalid login or password"
+   },
+   "msgLike": {
+      "message": "Like it"
+   },
+   "msgShareFB": {
+      "message": "Share on Facebook"
+   },
+   "msgShareTW": {
+      "message": "Share on Twitter"
+   },
+   "msgShareVK": {
+      "message": "Share on Vkontakte"
+   },
+   "msgSurf": {
+      "message": "Surf"
+   },
+   "msgUnlike": {
+      "message": "Unlike"
+   }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="toolbar.css" />
+	<script type="text/javascript" src="../jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+	
+</head>
+<body>
+<div id="tb-surfingbird" class="b-toolbar">
+    <div class="b-toolbar__cont">
+		<div class="i-tooltip i-tooltip_margin_middle i-tooltip_mt_negative">
+			<span id="surf-btn" class="b-button b-button_type_surf" title="Ctrl+→ или Alt+s">
+				<i class="b-button__icon b-button__icon_type_ajax hide"></i>
+                <i class="b-button__text">surf</i>
+				<b class="b-button__arrow"></b>
+			</span>
+		</div>
+	
+        <div class="i-tooltip liker hide">
+            <div id="like" class="b-button b-button_type_noborder">
+                <i class="b-button__icon b-button__icon_type_like"></i>
+            </div>
+            <div id="like-opt" class="b-button b-button_type_noborder">
+                <i class="b-button__icon b-button__icon_type_list"></i>
+            </div>
+        </div>
+        <div class="i-tooltip liker hide">
+            <div id="dontlike" class="b-button b-button_type_noborder" href="#">
+                <i class="b-button__icon b-button__icon_type_dontlike"></i>
+            </div>
+            <div id="dontlike-opt" class="b-button b-button_type_noborder">
+                <i class="b-button__icon b-button__icon_type_list"></i>
+            </div>
+        </div>
+        <div class="i-tooltip chan hide">
+            <a id="surf-chan" class="b-button b-button_type_noborder" href="#">
+                <i class="b-button__icon b-button__icon_type_plus"></i>
+            </a>
+        </div>
+        <div id="fav" class="i-tooltip i-tooltip_margin_huge hide">
+            <a id="soc-fav" class="b-button b-button_type_noborder" href="" target="_blank" title="В избранное">
+                <i class="b-button__icon b-button__icon_type_fav"></i>
+            </a>
+            <i id="count-sel" class="b-toolbar__text"></i>
+        </div>
+        <div id="surf-category" class="surf-category hide">
+            <span id="surf-category__input" class="surf-category__input">Все интересы</span>
+        </div>
+        <div id="comm" class="i-tooltip hide">
+            <a id="surf-comm" class="b-button b-button_type_noborder" href="" target="_blank" title="Комментарии">
+                <i class="b-button__icon b-button__icon_type_comment"></i>
+            </a>
+            &nbsp;
+            <a id="comment-cnt" class="b-toolbar__text" href="" target="_blank"></a>
+        </div>
+        <div class="i-tooltip i-tooltip_margin_small soc hide">
+            <a id="soc-fb" class="b-button b-button_type_noborder" href="#!/fb" title="Опубликовать в Facebook">
+                <i class="b-button__icon b-button__icon_type_fb"></i>
+            </a>
+        </div>
+        <div class="i-tooltip i-tooltip_margin_small soc hide">
+            <a id="soc-tw" class="b-button b-button_type_noborder" href="#!/tw" title="Опубликовать в Twitter">
+                <i class="b-button__icon b-button__icon_type_tw"></i>
+            </a>
+        </div>
+        <div class="i-tooltip soc hide">
+            <a id="soc-vk" class="b-button b-button_type_noborder" href="#!/vk" title="Опубликовать в ВКонтакте">
+                <i class="b-button__icon b-button__icon_type_vk"></i>
+            </a>
+        </div>
+        <div id="adder" class="b-toolbar__add hide">
+			<i class="b-toolbar__icon b-toolbar__icon_type_add"></i>
+            <span id="adder-name"></span>
+        </div>
+        <div id="home" class="i-tooltip i-tooltip_pos_right i-tooltip_pos_right_big hide">
+            <a id="home-btn" class="b-button b-button_type_noborder" href="http://surfingbird.ru" target="_blank" title="Домой">
+                <i class="b-button__icon b-button__icon_type_home"></i>
+            </a>
+        </div>
+        <div id="close" class="i-tooltip i-tooltip_pos_right">
+            <a id="close-btn" class="b-button b-button_size_small b-button_type_noborder" href="#" title="Закрыть">
+                <i class="b-button__icon b-button__icon_type_close"></i>
+            </a>
+        </div>
+        <form id="b-login-form" class="b-login hide" method="post">
+            <input type="hidden" name="remember" value="1"/>
+
+            <span id="login" class="b-toolbar__text">Логин:</span>
+            <div class="i-input"><input class="b-input b-input_type_text b-input_width_middle" type="text" name="login" value=""/></div>
+
+            <span id="pass" class="b-toolbar__text">Пароль:</span>
+            <div class="i-input"><input class="b-input b-input_type_text b-input_width_middle" type="password" name="pass" value=""/></div>
+
+            <span id="enter-btn" class="b-button">
+            <input class="b-button__text" type="submit" value="Войти">
+           </span>
+        </form>
+        <div id="b-error" class="i-tooltip"></div>
+
+        <a id="surf-add" class="b-button hide" title="Добавить этот сайт" href="#">
+            <i class="b-button__text">Добавить этот сайт</i>
+        </a>
+        <span class="surf-text hide">Стань первым, кто добавит эту страницу</span>
+        <div class="surf-auth hide">
+            <a class="surf-auth__reg" href="http://surfingbird.ru/reg" target="_blank">Регистрация</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="toolbar.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="../jquery.min.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+	<title>Surfingbird - твой персональный Интернет</title>
+</head>
+
+<body>
+
+<div class="b-options">
+	<h1 class="b-options__title">Настройки Surfingbird</h1>
+	<label class="b-label">
+		<input class="b-input b-input_type_options" type="checkbox" name="notification" />
+		Всплывающие рекомендации
+		<span class="b-field__text">(мы предлагаем тебе что-то интересное)</span>
+	</label>
+	<div class="b-options__sub hide">
+		Частота рекомендаций<br/>
+		
+		<label class="b-label">
+			<input class="b-input b-input_type_options" type="radio" name="period" value="24" checked /> раз в сутки
+		</label>
+		
+		<label class="b-label">
+			<input class="b-input b-input_type_options" type="radio" name="period" value="12" /> два раза в сутки
+		</label>
+		
+		<label class="b-label">
+			<input class="b-input b-input_type_options" type="radio" name="period" value="1" /> раз в час
+		</label>
+		
+		<label class="b-label">
+			<input class="b-input b-input_type_options" type="radio" name="period" value="0.17" /> раз в 10 минут
+		</label>
+	</div>
+	
+	<b id="save" class="b-button">
+		<input class="b-button__text" type="button" value="Сохранить" />
+	</b>
+	
+	<b id="reset" class="b-button">
+		<input class="b-button__text" type="button" value="Отменить" />
+	</b>
+</div>
+
+</body>
+
+</html>

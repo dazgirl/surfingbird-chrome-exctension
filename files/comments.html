@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="toolbar.css" />
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script type="text/javascript" src="comments.js"></script>
+</head>
+<body style="overflow: hidden;">
+
+<div class="b-comments__popup" id="b-comments_popup">
+    <div class="b-comments__container">
+        <p class="b-comments__text">Твой комментарий</p>
+        <form id="comment-form" class="post-form post-form_type_popup" action="" method="post">
+            <input type="hidden" name="Magica">
+            <input type="hidden" name="parent" value="">
+            <input type="hidden" name="userpost" value="">
+            <input type="hidden" name="url" value="">
+            <textarea id="post-text" class="b-textarea b-textarea_type_popup" cols="4" rows="4" name="comment"></textarea>
+            <span class="b-button">
+                <input id="post-send" class="b-button__text" type="submit" value="Добавить">
+            </span>
+        </form>
+    </div>
+    
+    <ul class="b-comments__list">
+    </ul>
+    <a target="_blank" class="b-comment__all" title="Ссылка на страницу комментариев" href="">все комментарии</a>
+</div>
+
+</body>
+</html>
